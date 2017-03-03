@@ -1,0 +1,22 @@
+<!DOCTYPE html>  
+<html>  
+<body>  
+  
+<p>Metode shift() menghapus elemen pertama dari sebuah array, dan "menggeser" elemen lain satu tempat kebawah.</p>  
+  
+<button onclick="myFunction()">Coba</button>  
+  
+<p id="demo"></p>  
+  
+<script>  
+var fruits = [" Pisang", " Jeruk", " Apel", " Mangga"];  
+document.getElementById("demo").innerHTML = fruits;  
+  
+function myFunction() {  
+    fruits.shift();  
+    document.getElementById("demo").innerHTML = fruits;  
+}  
+</script>  
+  
+</body>  
+</html>  

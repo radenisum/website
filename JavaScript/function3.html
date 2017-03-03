@@ -1,0 +1,27 @@
+<!DOCTYPE html>  
+<html>   
+<head>   
+<script>   
+function myfunction(txt) {   
+    document.getElementById("demo").innerHTML = txt  
+}   
+</script>   
+</head>   
+  
+<body>   
+<p>  
+Saat anda mengklik salah satu tombol, sebuah fungsi akan dipanggil.
+Fungsi tersebut akan menampilkan argumen yang diisikan kedalamnya.  
+</p>    
+  
+
+<form>   
+<input type="button" onclick="myfunction('Selamat Pagi!')"  
+value="Pagi">   
+<input type="button" onclick="myfunction('Malam!')" value="Malam">   
+</form>   
+  
+<p id="demo"></p>  
+  
+</body>   
+</html>   

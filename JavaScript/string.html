@@ -1,0 +1,22 @@
+<!DOCTYPE html>  
+<html>  
+  
+
+<body>  
+  
+<p>Klik tombol untuk melakukan pencarian global (/g) untuk huruf-huruf "ik"(/ik) dalam sebuah string, dan menampilkan hasilnya.</p>  
+  
+<button onclick="myFunction()">Test deh!</button>  
+  
+<p id="demo"></p>  
+  
+<script>  
+function myFunction() {  
+    var str = "Anak baik pergi ke sekolah naik bus kota";   
+    var cari = str.match(/ik/g);  
+    document.getElementById("demo").innerHTML = cari;  
+}  
+</script>  
+  
+</body>  
+</html>  

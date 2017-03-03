@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p>Membuat dan menggunakan sebuah object method</p>
+	<p>sebuah object method merupakan sebuah definisi fungsi yang disimpan sebagai nilai property.</p>
+
+	<p id="demo"></p>
+
+	<script>
+		var person = {
+			firstname:"Yogi",
+			lastname:"bear",
+			id:5566,
+			fullname : function(){
+				return this.firstname + " "+this.lastname;
+			}
+		};
+		document.getElementById("demo").innerHTML=person.fullname();
+	</script>
+</body>
+</html>
